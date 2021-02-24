@@ -1,0 +1,117 @@
+body{
+background-color: #b0ac9b;
+}
+
+#container{
+  width: 1100px;
+  margin: auto;
+  background-color:#b0ac9b;
+}
+header{
+background-color: #b0ac9b;
+padding: 40px;
+}
+header h2{
+  margin: 0;
+  padding-left: : 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #e3e0d5;
+}
+
+#head-soc ul li {
+  list-style :none;
+  padding: 0 0 0 12px;
+  float: center;
+}
+#head-soc ul li a {
+  text-indent: 1000px;
+  font-size: 5;
+  line-height: 0;
+  overflow: hidden ;
+  height: 32px;
+   width: 32px ;
+   border: 10;
+   background: white
+  display: block;
+}
+#head-soc li#Instagram a {
+  background-position: 30px 30px;
+  
+}
+#head-soc li#Instagram a:hover {
+  background-position: 40px 30px;
+
+}
+#head-soc li#Facebook a {
+  background-position: 30px 30px;
+}
+#head-soc li#Facebook a:hover {
+  background-position: 40px 30px;}
+
+
+footer{
+background-color: #b0ac9b;
+padding: 40px;
+}
+footer p{
+margin: 0;
+}
+#big-pic {width: 400px;
+
+}
+
+.two-column{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+  background-color: #b0ac9b;
+}
+.two-column div{
+  background-color: #e3e0d5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.three-column{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 40px;
+  background-color: #b0ac9b;
+}
+.three-column div{
+  background-color: #e3e0d5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
